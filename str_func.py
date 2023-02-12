@@ -4,7 +4,7 @@ def get_upper(text: str):
 
 
 def get_tilte(text: str):
-    """ Функция преобразующая первые буквы слова  в заглавные"""
+    """ Функция преобразующая первые буквы каждого слова в заглавные"""
 
     return ' '.join([x.title() for x in text.split(' ')])
 
