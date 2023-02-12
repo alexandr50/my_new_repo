@@ -1,6 +1,7 @@
 def get_upper(text: str):
     """Функция преобразующая весь текст в заглавные буквы"""
-    return text.upper()
+    result = text.upper()
+    return result
 
 
 def get_tilte(text: str):
